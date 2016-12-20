@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Коледа у дома</title>	
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+	<div id="wrap">
+		<header> 
+		<a href="index.html"><img src="img1.png" alt="logo"/></a>
+		<h1>Коледа у дома</h1>
+		</header>
+		
+		<nav>
+		<a href="index.html"> Начало</a>
+		<a href="trapeza.html"> Трапеза</a>
+		<a href="contact.html"> Kонтакти</a>
+		</nav>
+		<main>
+		<section> 
+		<article>
+		<h2> Контакти </h2>
+		
+		<form action="script" method="post">
+		<label>Име:</label>
+		<input type="text" name="fname" />
+		<p>
+		<label>Фамилия:</label>
+		<input type="text" name="lname" />
+		</p>
+		<label>Парола:</label>
+		<input type="password" name="pass" />
+		<p>
+		<label>Пол:</label>
+		</p>
+		<input type="radio" name="gender" value="male" /> Мъж <br />
+		<input type="radio" name="gender" value="female" /> Жена <br />
+		<input type="radio" name="gender" value="none" checked /> Неопределен <br />
+		<label>За Коледа искам:</label>
+		<p>
+		<input type="checkbox" name="velosiped" value="колело" /> Колело<br /> </p>
+		<input type="checkbox" name="lodka" value="лодка" /> Лодка<br />
+		<input type="checkbox" name="samolet" value="самолет" /> Самолет<br />
+		<input type="checkbox" name="kola" value="кола" /> Кола<br />
+		<select name="model">
+			<option value="lada"> Ауди</option>
+			<option value="volvo"> Волво</option>
+			<option value="opel"> Опел</option>
+		</select><br />
+		Рожден ден:
+		<input type="date" name="bday">
+		<br /><br /><br />
+		<input type="color" name="favcolor" /> Любим цвят <br />
+
+		<input type="submit" value="Изпрати" />
+		<input type="reset" value="Изчисти" /> 
+		
+		</form>
+		</article>
+	
+		</section>
+		</main>
+		<footer>
+		<h2> Деница Узунова </h2>
+		</footer>
+	</div>
+	</body>
+</html>

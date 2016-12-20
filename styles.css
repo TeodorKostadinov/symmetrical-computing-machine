@@ -1,0 +1,145 @@
+* {margin: 0;
+  padding: 0;}
+body{
+	font-family: Calibri, Helvetica, sans-serif;
+	font-size: 75%;
+	line-height: 1.5;
+}
+#wrap{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:  #ff3333;
+	padding: 30px;
+	border-radius: 3px;
+}
+#button{
+	text-align: center;
+	background-color: #ff3333;
+	width: 160px;
+	color: #ffffff;
+	border-radius:25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius:25px;
+	text-decoration: none;
+}
+#button a{
+	text-decoration: none;
+}
+header {
+	width: 960px;
+	height: 120px;
+	background-color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+header h1,h2 {
+	margin-left: 140px;		
+}
+header h1 {
+	font-size: 28px;
+	color: #8B0000; 
+}
+header h2 {
+	font-size: 22px;
+	color: #80BC04;
+	padding-top: 5px;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header  img{
+	margin: 10px;
+	float: left;
+	width: 99px;
+	height: 110px;}
+nav {
+	width: 960px;
+	height: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-color: #8B0000;
+	padding-top: 10px;
+	border-radius: 3px;
+}
+nav a {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	font-size: 28px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+nav a:hover {
+	background-color: white;
+	color: #8B0000;
+}
+main {width: 960px;
+	min-height: 500px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 3px;
+}
+	/* unvisited link */
+main a:link {
+    color: #8B0000;
+}
+/* visited link */
+main a:visited {
+    color: #8B0000;
+}
+/* mouse over link */
+main a:hover {
+    color: #000000;
+}
+/* selected link */
+ main a:active {
+    color: #ff3333;
+}
+main h1,h2 {
+	color:#8B0000; 
+	margin-left: 10px;
+	font-size: 28px;
+}
+article {
+	padding: 10px;
+	font-size: 20px;
+}
+article img{
+	margin: 0 0 10px 10px;
+	float: auto;
+	width: 300px;
+	height:250px;
+	margin-left: 250px;
+}
+article ul{
+	margin-left: 15px;
+}
+article p{
+	margin-top: 5px;
+	text-align: justify;
+}
+footer {
+	width: 960px;
+	height: 55px;
+	background-color: #8B0000;
+	clear: left;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+footer h2 {
+	font-size: 18px;
+	color: white; 
+	padding-top: 10px;
+}
+.clearfix {clear: both;}
